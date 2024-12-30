@@ -5,7 +5,7 @@ Welcome to our project. In this project, we create a website to store movie's ex
 We uploaded some prominent update version of our project
 
 ### Process
-We have developed the 'local' version of the website, which means that
+We have developed the 'local' version of the website, which means that:
     - the database is stored in local device.
     - to access the website, you need to type http://localhost:3000 to the domain text-box
 
