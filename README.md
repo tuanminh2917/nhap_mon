@@ -1,20 +1,37 @@
-### Introduction
-Welcome to our project. In this project, we create a website to store movie's excerpt (video and image)
+### Introduction  
+Welcome to our project! In this project, we have created a website to store movie excerpts (videos and images).  
 
-### In this repository (hereinafter called 'repo')
-We uploaded some prominent update version of our project
+---
 
-### Process
-We have developed the 'local' version of the website, which means that:
-    - the database is stored in local device.
-    - to access the website, you need to type http://localhost:3000 to the domain text-box
+### In this Repository (hereinafter called 'Repo')  
+We have uploaded some prominent update versions of our project.  
 
-### To try it, you have to:
-    - Download _MySQL RDBMS_ (MySQL Server, MySQL Route, MySQL Shell, MySQL Workbench).
-    - Create a database whose name is 'media_management2', you could change the name if you want
-    - Add the data of the .sql file in the repo to your database (you should choose the newest version)
-    - Download _NodeJS_
-    - Download one of those .zip files, extract it.
-    - You have to change the details of `const db = mysql.createConnection()` in _"./Content/dal/dal.js"_ of the obtained folder after extracting to your own MySQL information
-    - Use terminal (or something else), navigate to the 'Content' folder of the obtained folder after extracting.
-    - Type `node server.js` to the terminal 
+---
+
+### Process  
+We have developed a **local version** of the website, which means:  
+- The database is stored on a local device.  
+- To access the website, you need to type `http://localhost:3000` in the browser's address bar.  
+
+---
+
+### To Try It, Follow These Steps:  
+1. **Download**:  
+   - _MySQL RDBMS_ (MySQL Server, MySQL Router, MySQL Shell, MySQL Workbench).  
+   - _NodeJS_.  
+
+2. **Create a Database**:  
+   - Name the database `media_management2`. (You can use a different name if you prefer.)  
+   - Import the data from the `.sql` file in this repo into your database (choose the latest version).  
+
+3. **Download and Extract the Project Files**:  
+   - Download one of the `.zip` files available in this repo.  
+   - Extract the contents of the file.  
+
+4. **Update Database Connection**:  
+   - Modify the details in the `const db = mysql.createConnection()` section in `./Content/dal/dal.js` to match your MySQL configuration.  
+
+5. **Start the Server**:  
+   - Open a terminal.  
+   - Navigate to the `Content` folder inside the extracted folder.  
+   - Run the command: `node server.js`.  
