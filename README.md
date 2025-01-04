@@ -12,7 +12,7 @@ We have developed the 'local' version of the website, which means that:
 ### To try it, you have to:
     - Download _MySQL RDBMS_ (MySQL Server, MySQL Route, MySQL Shell, MySQL Workbench).
     - Create a database whose name is 'media_management2', you could change the name if you want
-    - Add the data of the .sql file in the repo to your database
+    - Add the data of the .sql file in the repo to your database (you should choose the newest version)
     - Download _NodeJS_
     - Download one of those .zip files, extract it.
     - You have to change the details of `const db = mysql.createConnection()` in _"./Content/dal/dal.js"_ of the obtained folder after extracting to your own MySQL information
